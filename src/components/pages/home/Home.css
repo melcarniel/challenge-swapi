@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+  font-family: 'Montserrat';
+  background-color: #E5E5E5;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.title {
+  font-size: 72px;
+  line-height: 88px;
+  margin-top: 10.0rem;
+  margin-bottom: 0.5rem;
+  color: #2C97D1;
+}
+
+.title-challenge {
+  margin-bottom: 10rem;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.35em;
+  color: #2C97D1;
+}
+
+.btn-home {
+  background: #2C97D1;
+  border-radius: 10px;
+  color: #FFFFFF;
+  padding: 1.0rem 2.6rem;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 900;
+  border: none;
+  letter-spacing: 0.35em;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.text-link{
+  text-decoration: inherit;
+}
+
+span {
+  font-weight: 950;
+  line-height: 88px;
+}
+
+@media all and (max-width: 800px) {
+  .container {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .title {
+    font-size: 62px;
+  }
+
+  .title-challenge {
+    font-size: 12px;
+    margin-bottom: 8rem;
+  }
+  
+}
+

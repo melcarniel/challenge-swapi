@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testes para Home Componente 1`] = `
+<Fragment>
+  <div
+    className="container"
+  >
+    <p
+      className="title"
+    >
+      Welcome to 
+      <span>
+        iClinic
+      </span>
+    </p>
+    <p
+      className="title-challenge"
+    >
+      FRONTEND CHALLENGE
+    </p>
+    <Link
+      className="btn-home text-link"
+      to="/result"
+    >
+      START
+    </Link>
+  </div>
+</Fragment>
+`;
+
+exports[`Testes para a página home fragment 1`] = `
+<Fragment>
+  <div
+    className="container"
+  >
+    <p
+      className="title"
+    >
+      Welcome to 
+      <span>
+        iClinic
+      </span>
+    </p>
+    <p
+      className="title-challenge"
+    >
+      FRONTEND CHALLENGE
+    </p>
+    <Link
+      className="btn-home text-link"
+      to="/result"
+    >
+      START
+    </Link>
+  </div>
+</Fragment>
+`;
